@@ -1,0 +1,12 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Local outputs
+logs/
+frames/
+
+# macOS
+.DS_Store
+

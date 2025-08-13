@@ -1,0 +1,33 @@
+camera_index: 0
+width: 1280
+height: 720
+mirror: true
+max_num_hands: 1
+min_detection_confidence: 0.6
+min_tracking_confidence: 0.6
+show_camera_background: false
+capture_frames_on_change: true
+frames_dir: frames
+logs_dir: logs
+window_title: Thesidia-HandControl-Alpha
+black_background: true
+draw_fps: true
+
+dashboard:
+  enabled: true
+  host: 127.0.0.1
+  port: 8765
+
+constellation:
+  enabled: true
+  neighbors: 3
+  point_radius: 3
+  line_thickness: 1
+
+osc:
+  enabled: true
+  host: 127.0.0.1
+  port: 9000
+  send_landmarks: false
+  fps_interval_sec: 0.5
+
